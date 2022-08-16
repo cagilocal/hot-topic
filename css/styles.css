@@ -1,0 +1,137 @@
+/*Font Families
+
+--Headings--
+font-family: 'Montserrat', sans-serif;
+
+--Body Text--
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+* { 
+    box-sizing: border-box
+  !important;
+  }
+  
+  html {
+    font-size: 120%;
+  }
+  
+  body {
+      background-color: #fffcfb;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  
+  /*Heading Fonts*/
+  h1, h2, h3, h4 {
+      font-family: 'Montserrat', Verdana, sans-serif;
+    }
+  
+  h1 {
+      color: #442217;
+      font-size: 36px;
+      font-weight: bold;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      text-align: center;
+      font-family: 'Montserrat', Verdana, sans-serif;
+  }
+  
+  h2 {
+      color: #D6952A;
+      font-size: 2rem;
+      font-weight: bold;
+      padding-top: 1.25rem;
+  }
+  
+  h3 {
+      color: #974415;
+      font-size: 1.75rem;
+      font-weight: bold;
+      padding-top: 1rem;
+  }
+  
+  h4 {
+      color: #D29A89;
+      text-decoration: underline;
+      font-size: 1rem;
+      font-weight: bold;
+      padding-top: 1rem;
+  }
+  
+  p {
+      line-height: 1.4;
+      color: #212121;
+      font-family: 'Roboto', Georgia, sans-serif;
+      font-family: 'Roboto Slab', Georgia, serif;    
+      font-size: 1rem;
+  }
+  
+  ul li {
+      line-height: 1.4;
+      color: #212121;
+      font-family: 'Roboto', Georgia, sans-serif;
+      font-family: 'Roboto Slab', Georgia, serif;
+      font-size: 1rem;
+  }
+  
+  img {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  img, object {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .menu-icon  {
+    display: block;
+    text-align: right;
+
+    color: #D6952A;
+}
+
+  .row {
+    text-align: left;
+}
+
+.col {
+    padding: 1rem 1rem;
+}
+
+
+  .masthead {
+    clear: both;
+    background-image: url(../img/mast.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+}
+
+footer,
+footer .row p,
+footer ul {
+    clear: both;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 1rem 0.5rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: #D6952A;
+}
