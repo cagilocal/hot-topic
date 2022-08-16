@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- tells browser which character set to use -->
+        <meta charset="UTF-8">
+
+        <!-- Meta tag for website description -->
+        <meta name="description" content="Cagil Ocal">
+
+        <!-- Force page to refresh every 60 seconds -->
+        <!-- <meta http-equiv="refresh" content="60">  -->
+
+        <!-- Meta tag for mobile responsiveness-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" href="../css/normalize.css">
+
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/923b9a3f39.js" crossorigin="anonymous"></script>
+
+        <!-- MMenu.js Plugin CSS -->
+        <link rel="stylesheet" href="css/mmenu.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Slab:wght@300;400;500;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- Own Style Sheet -->
+        <link rel="stylesheet" href="/css/styles.css">
+
+        <title>Hot Topics</title>
+    </head>
+
+    <body id="body">
+        <div id="page">
+            <div id="header">
+                <header>
+                    <img class="logo" src="../img/logo.png" alt="">
+                    <h1 class="site-title">Hot Topics</h1>
+                    <a class="menu-icon" href="#menu">
+                        <i class="fa-solid fa-bars fa-2x"></i>
+                    </a>
+
+        <div class="container navigation">
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="/partials/home.html">Home</a>
+                    </li>
+                     <li>
+                        <a href="partials/portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="tablet-desktop-visible">
+            <div class="masthead container-fluid">
+            </div>
+        </div>
+
+    </header>
+
+    <div class="main">
+        <div class="container">
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>&copy; All Rights Reserved. © Copyright 2022 </p>
+                </div>
+            </div>
+            <p class="copyright"></p>
+            <ul class="social">
+                <li><a><i class="fab fa-facebook-square"></i></a></li>
+                <li><a><i class="fab fa-twitter-square"></i></a></li>
+                <li><a><i class="fab fa-google-plus-square"></i></a></li>
+                <li><a><i class="fab fa-pinterest-square"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+    <!-- Load Mmenu.js -->
+    <script src="js/mmenu.js"></script>
+
+    <!-- Initialize Mmenu.js -->
+    <script>
+        document.addEventListener(
+            "DOMContentLoaded", () => {
+                new Mmenu( "#menu" , {
+                // options
+                'slidingSubmenus': false
+            });
+            }
+        );
+    </script>
+</body>
+
+</html>
